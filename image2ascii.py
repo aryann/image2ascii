@@ -15,6 +15,13 @@ This module can be invoked directly like:
 The above invocation will write the results to stdout.
 
 Alternatively, you can import this module.
+
+In order to use generate_ascii_from_image() or to invoke this module
+directly, you will need the Python Imaging Library (PIL) installed on
+your system:
+
+    sudo pip install PIL
+
 """
 
 import random
